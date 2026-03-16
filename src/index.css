@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&family=Montserrat:wght@700;900&family=Bebas+Neue&family=Bangers&family=Permanent+Marker&family=Roboto:wght@700;900&family=Anton&family=Caveat:wght@400;700&family=Pacifico&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  html {
+    zoom: 1.2;
+  }
+}
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-bebas: "Bebas Neue", sans-serif;
+  --font-bangers: "Bangers", system-ui;
+  --font-permanent: "Permanent Marker", cursive;
+  --font-roboto: "Roboto", sans-serif;
+  --font-anton: "Anton", sans-serif;
+  --font-caveat: "Caveat", cursive;
+  --font-pacifico: "Pacifico", cursive;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
