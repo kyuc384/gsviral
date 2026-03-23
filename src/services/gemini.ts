@@ -80,7 +80,7 @@ Steps:
 1. Analyze the uploaded thumbnail image in the context of the video title and audience.
 2. Identify strengths and weaknesses of the design.
 3. Extract the main visual concept.
-4. Generate 1 improved thumbnail concepts inspired by the original but optimized for the specific title and audience.
+4. Generate 2 improved thumbnail concepts inspired by the original but optimized for the specific title and audience.
 5. Each concept must be different while keeping the same topic.
 
 For each new thumbnail concept generate:
